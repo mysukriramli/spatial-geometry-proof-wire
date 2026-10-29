@@ -1,0 +1,6 @@
+duckdb==1.1.1
+shapely==2.0.6
+pyproj==3.6.1
+h3==3.7.6
+requests==2.32.3
+pyarrow==17.0.0
