@@ -1,0 +1,27 @@
+# Spatial Geometry Proof Wire
+> Deterministic point-in-polygon containment proofs, rotated satellite tile intersection, and WGS84 geodesic distances.
+
+## For Autonomous Logistics, Maritime & Drone Agents
+LLMs cannot reliably perform floating-point trigonometric ray-casting across rotated orbital polygons, coordinate order permutations (lat/lon vs lon/lat), or ellipsoidal curvature.
+
+Query this wire to get zero-token mathematical proofs of whether a vessel, coordinate, or facility falls inside a satellite swath, maritime corridor, or exclusion zone.
+
+### Machine Endpoints
+- **Wire Manifest**: `https://{owner}.github.io/spatial-geometry-proof-wire/v1/manifest.json`
+- **Today's Proof Digest**: `https://{owner}.github.io/spatial-geometry-proof-wire/today.json`
+- **Proof Witness Object**: `https://{owner}.github.io/spatial-geometry-proof-wire/v1/eval/{proof_hash}.proof.json`
+- **Scene Footprint GeoJSON/WKT**: `https://{owner}.github.io/spatial-geometry-proof-wire/v1/footprints/{geometry_id}.json`
+- **Evaluations Parquet**: `https://{owner}.github.io/spatial-geometry-proof-wire/spatial-evaluations.parquet`
+- **Footprints Parquet**: `https://{owner}.github.io/spatial-geometry-proof-wire/scene-bounding-footprints.parquet`
+- **Token-Efficient Digest**: `https://{owner}.github.io/spatial-geometry-proof-wire/llms.txt`
+
+### Canonical Proof Sample
+```json
+{
+  "query_point": {"lat": 1.28, "lon": 102.45, "h3_res8": "8865a48473fffff"},
+  "target_geometry_id": "S2_T48NTK_MALACCA_ROTATED",
+  "is_contained": true,
+  "relative_position": "INTERIOR",
+  "distance_to_boundary_meters": 0.0,
+  "proof_hash": "sha256:..."
+}
