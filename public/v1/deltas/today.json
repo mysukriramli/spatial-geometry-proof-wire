@@ -1,0 +1,355 @@
+{
+  "date": "2026-10-29",
+  "updated_at_utc": "2026-10-29T04:25:50.068773+00:00",
+  "proofs_count": 12,
+  "evaluations": [
+    {
+      "proof_hash": "4d7af458485dde8b92fd75de679d5ffda932dae2fb02af89853ae49f2ef7d60f",
+      "query_id": "q_malacca_traffic_separation_01",
+      "target_geometry": "S2_T48NTK_MALACCA_ROTATED",
+      "lat": 1.28,
+      "lon": 102.45,
+      "contained": false,
+      "distance_meters": 3607.04,
+      "witness": {
+        "query_point": {
+          "lat": 1.28,
+          "lon": 102.45,
+          "h3_res8": "8865215185fffff"
+        },
+        "target_geometry_id": "S2_T48NTK_MALACCA_ROTATED",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 3607.04,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          101.9421,
+          1.2512,
+          103.0045,
+          2.3154
+        ]
+      }
+    },
+    {
+      "proof_hash": "21408a19f485ea00c33e561609788b1aa34082d15de2aba41ae32f91cfa6e408",
+      "query_id": "q_malacca_traffic_separation_01",
+      "target_geometry": "S1_ORBIT99_SINGAPORE_RADAR",
+      "lat": 1.28,
+      "lon": 102.45,
+      "contained": false,
+      "distance_meters": 99934.535,
+      "witness": {
+        "query_point": {
+          "lat": 1.28,
+          "lon": 102.45,
+          "h3_res8": "8865215185fffff"
+        },
+        "target_geometry_id": "S1_ORBIT99_SINGAPORE_RADAR",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 99934.535,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          102.97,
+          0.85,
+          105.82,
+          3.65
+        ]
+      }
+    },
+    {
+      "proof_hash": "5c86d653c3b58788426af1d4cb5bdf9025e6bac3f5b1372d908c29a3be8b3935",
+      "query_id": "q_malacca_traffic_separation_01",
+      "target_geometry": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+      "lat": 1.28,
+      "lon": 102.45,
+      "contained": false,
+      "distance_meters": 5597523.002,
+      "witness": {
+        "query_point": {
+          "lat": 1.28,
+          "lon": 102.45,
+          "h3_res8": "8865215185fffff"
+        },
+        "target_geometry_id": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 5597523.002,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          55.66,
+          25.9,
+          56.84,
+          27.04
+        ]
+      }
+    },
+    {
+      "proof_hash": "590bdaa38ee65ee8d199422129a20fd816435f831f8a597a36b832639993ea1c",
+      "query_id": "q_malacca_boundary_exterior_02",
+      "target_geometry": "S2_T48NTK_MALACCA_ROTATED",
+      "lat": 1.15,
+      "lon": 102.05,
+      "contained": false,
+      "distance_meters": 12776.398,
+      "witness": {
+        "query_point": {
+          "lat": 1.15,
+          "lon": 102.05,
+          "h3_res8": "8865210d61fffff"
+        },
+        "target_geometry_id": "S2_T48NTK_MALACCA_ROTATED",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 12776.398,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          101.9421,
+          1.2512,
+          103.0045,
+          2.3154
+        ]
+      }
+    },
+    {
+      "proof_hash": "02da57be993bb5371f254e7d62377762bf6a2093b7cb95056ba57ae5916d5c20",
+      "query_id": "q_malacca_boundary_exterior_02",
+      "target_geometry": "S1_ORBIT99_SINGAPORE_RADAR",
+      "lat": 1.15,
+      "lon": 102.05,
+      "contained": false,
+      "distance_meters": 146399.066,
+      "witness": {
+        "query_point": {
+          "lat": 1.15,
+          "lon": 102.05,
+          "h3_res8": "8865210d61fffff"
+        },
+        "target_geometry_id": "S1_ORBIT99_SINGAPORE_RADAR",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 146399.066,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          102.97,
+          0.85,
+          105.82,
+          3.65
+        ]
+      }
+    },
+    {
+      "proof_hash": "043c6cc743a25a022df7855b33829e5c69523cbdf621300dd18e9f4fba525590",
+      "query_id": "q_malacca_boundary_exterior_02",
+      "target_geometry": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+      "lat": 1.15,
+      "lon": 102.05,
+      "contained": false,
+      "distance_meters": 5568325.979,
+      "witness": {
+        "query_point": {
+          "lat": 1.15,
+          "lon": 102.05,
+          "h3_res8": "8865210d61fffff"
+        },
+        "target_geometry_id": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 5568325.979,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          55.66,
+          25.9,
+          56.84,
+          27.04
+        ]
+      }
+    },
+    {
+      "proof_hash": "74a5c32a229324b34e21927c1c083762efe78dc3e2e3c35ae05589d12261c899",
+      "query_id": "q_singapore_eastern_anchorage_03",
+      "target_geometry": "S2_T48NTK_MALACCA_ROTATED",
+      "lat": 1.32,
+      "lon": 104.15,
+      "contained": false,
+      "distance_meters": 127892.764,
+      "witness": {
+        "query_point": {
+          "lat": 1.32,
+          "lon": 104.15,
+          "h3_res8": "886526aa3dfffff"
+        },
+        "target_geometry_id": "S2_T48NTK_MALACCA_ROTATED",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 127892.764,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          101.9421,
+          1.2512,
+          103.0045,
+          2.3154
+        ]
+      }
+    },
+    {
+      "proof_hash": "2931f52066b7e473e382419f8d5287cb7cfe55c89fcd12e535643042564adb54",
+      "query_id": "q_singapore_eastern_anchorage_03",
+      "target_geometry": "S1_ORBIT99_SINGAPORE_RADAR",
+      "lat": 1.32,
+      "lon": 104.15,
+      "contained": true,
+      "distance_meters": 0.0,
+      "witness": {
+        "query_point": {
+          "lat": 1.32,
+          "lon": 104.15,
+          "h3_res8": "886526aa3dfffff"
+        },
+        "target_geometry_id": "S1_ORBIT99_SINGAPORE_RADAR",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": true,
+        "relative_position": "INTERIOR",
+        "distance_to_boundary_meters": 0.0,
+        "ray_casting_crossings": 1,
+        "winding_number": 1,
+        "envelope_bounds": [
+          102.97,
+          0.85,
+          105.82,
+          3.65
+        ]
+      }
+    },
+    {
+      "proof_hash": "be5af303826d557c2e9ba4f6daf03219d59e38746c523431ebda1550a0cca60a",
+      "query_id": "q_singapore_eastern_anchorage_03",
+      "target_geometry": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+      "lat": 1.32,
+      "lon": 104.15,
+      "contained": false,
+      "distance_meters": 5753817.758,
+      "witness": {
+        "query_point": {
+          "lat": 1.32,
+          "lon": 104.15,
+          "h3_res8": "886526aa3dfffff"
+        },
+        "target_geometry_id": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 5753817.758,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          55.66,
+          25.9,
+          56.84,
+          27.04
+        ]
+      }
+    },
+    {
+      "proof_hash": "e16c6c675df81efd9c37893c51f6985c5aad559d793071814acb4f659a2b2b22",
+      "query_id": "q_hormuz_inbound_lane_04",
+      "target_geometry": "S2_T48NTK_MALACCA_ROTATED",
+      "lat": 26.45,
+      "lon": 56.35,
+      "contained": false,
+      "distance_meters": 5559000.918,
+      "witness": {
+        "query_point": {
+          "lat": 26.45,
+          "lon": 56.35,
+          "h3_res8": "8843ad942bfffff"
+        },
+        "target_geometry_id": "S2_T48NTK_MALACCA_ROTATED",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 5559000.918,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          101.9421,
+          1.2512,
+          103.0045,
+          2.3154
+        ]
+      }
+    },
+    {
+      "proof_hash": "9a5083a347bcbed8c6a63b3cf4ddadb7c57dd0d0e87d3040cf6c5917d4b61bba",
+      "query_id": "q_hormuz_inbound_lane_04",
+      "target_geometry": "S1_ORBIT99_SINGAPORE_RADAR",
+      "lat": 26.45,
+      "lon": 56.35,
+      "contained": false,
+      "distance_meters": 5587498.05,
+      "witness": {
+        "query_point": {
+          "lat": 26.45,
+          "lon": 56.35,
+          "h3_res8": "8843ad942bfffff"
+        },
+        "target_geometry_id": "S1_ORBIT99_SINGAPORE_RADAR",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": false,
+        "relative_position": "EXTERIOR",
+        "distance_to_boundary_meters": 5587498.05,
+        "ray_casting_crossings": 0,
+        "winding_number": 0,
+        "envelope_bounds": [
+          102.97,
+          0.85,
+          105.82,
+          3.65
+        ]
+      }
+    },
+    {
+      "proof_hash": "be1b4c62621bb366558a216b145f3d6e2b7abb644ffb9ab7bbec9e6c295b08d2",
+      "query_id": "q_hormuz_inbound_lane_04",
+      "target_geometry": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+      "lat": 26.45,
+      "lon": 56.35,
+      "contained": true,
+      "distance_meters": 0.0,
+      "witness": {
+        "query_point": {
+          "lat": 26.45,
+          "lon": 56.35,
+          "h3_res8": "8843ad942bfffff"
+        },
+        "target_geometry_id": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+        "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+        "is_contained": true,
+        "relative_position": "INTERIOR",
+        "distance_to_boundary_meters": 0.0,
+        "ray_casting_crossings": 1,
+        "winding_number": 1,
+        "envelope_bounds": [
+          55.66,
+          25.9,
+          56.84,
+          27.04
+        ]
+      }
+    }
+  ]
+}

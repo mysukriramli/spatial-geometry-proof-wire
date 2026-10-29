@@ -1,0 +1,11 @@
+{
+  "geometry_id": "S1_ORBIT99_SINGAPORE_RADAR",
+  "platform": "Sentinel-1D",
+  "mgrs_or_track": "ORBIT_99_ASCENDING",
+  "srid": 4326,
+  "wkt": "POLYGON((103.4500 0.8500, 105.8200 1.2100, 105.3400 3.6500, 102.9700 3.2900, 103.4500 0.8500))",
+  "h3_cells_count": 1,
+  "h3_cells": [
+    "886535a2ebfffff"
+  ]
+}

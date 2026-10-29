@@ -1,0 +1,11 @@
+{
+  "geometry_id": "S2_T48NTK_MALACCA_ROTATED",
+  "platform": "Sentinel-2C",
+  "mgrs_or_track": "48NTK",
+  "srid": 4326,
+  "wkt": "POLYGON((102.1054 1.2512, 103.0045 1.4128, 102.8412 2.3154, 101.9421 2.1538, 102.1054 1.2512))",
+  "h3_cells_count": 1,
+  "h3_cells": [
+    "8865238eadfffff"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "geometry_id": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+  "platform": "Sentinel-2C",
+  "mgrs_or_track": "40RCR",
+  "srid": 4326,
+  "wkt": "POLYGON((55.8500 25.9000, 56.8400 26.0500, 56.6500 27.0400, 55.6600 26.8900, 55.8500 25.9000))",
+  "h3_cells_count": 1,
+  "h3_cells": [
+    "8843132db5fffff"
+  ]
+}

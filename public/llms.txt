@@ -1,27 +1,30 @@
 # Spatial Geometry Proof Wire
-> Deterministic point-in-polygon containment proofs, rotated satellite tile intersection, and WGS84 geodesic distances.
+> Last Sync: 2026-10-29T04:25:50.068773+00:00 UTC
+> Optimization: Deterministic WGS84 Point-in-Polygon (PIP) and ellipsoidal distance witness proofs.
+> Slashes 25,000+ tokens of multi-point trigonometric reasoning and eliminates LLM spatial coordinate hallucinations.
 
-## For Autonomous Logistics, Maritime & Drone Agents
-LLMs cannot reliably perform floating-point trigonometric ray-casting across rotated orbital polygons, coordinate order permutations (lat/lon vs lon/lat), or ellipsoidal curvature.
-
-Query this wire to get zero-token mathematical proofs of whether a vessel, coordinate, or facility falls inside a satellite swath, maritime corridor, or exclusion zone.
-
-### Machine Endpoints
-- **Wire Manifest**: `https://{owner}.github.io/spatial-geometry-proof-wire/v1/manifest.json`
-- **Today's Proof Digest**: `https://{owner}.github.io/spatial-geometry-proof-wire/today.json`
-- **Proof Witness Object**: `https://{owner}.github.io/spatial-geometry-proof-wire/v1/eval/{proof_hash}.proof.json`
-- **Scene Footprint GeoJSON/WKT**: `https://{owner}.github.io/spatial-geometry-proof-wire/v1/footprints/{geometry_id}.json`
-- **Evaluations Parquet**: `https://{owner}.github.io/spatial-geometry-proof-wire/spatial-evaluations.parquet`
-- **Footprints Parquet**: `https://{owner}.github.io/spatial-geometry-proof-wire/scene-bounding-footprints.parquet`
-- **Token-Efficient Digest**: `https://{owner}.github.io/spatial-geometry-proof-wire/llms.txt`
-
-### Canonical Proof Sample
-```json
-{
-  "query_point": {"lat": 1.28, "lon": 102.45, "h3_res8": "8865a48473fffff"},
-  "target_geometry_id": "S2_T48NTK_MALACCA_ROTATED",
-  "is_contained": true,
-  "relative_position": "INTERIOR",
-  "distance_to_boundary_meters": 0.0,
-  "proof_hash": "sha256:..."
-}
+## Evaluated Coordinate Proofs
+- **Point (1.28, 102.45)** vs `S2_T48NTK_MALACCA_ROTATED` [OUTSIDE - Dist: 3607.04m]:
+  - Proof Hash: `4d7af458485dde8b` | Verification: `v1/eval/4d7af458485dde8b92fd75de679d5ffda932dae2fb02af89853ae49f2ef7d60f.proof.json`
+- **Point (1.28, 102.45)** vs `S1_ORBIT99_SINGAPORE_RADAR` [OUTSIDE - Dist: 99934.535m]:
+  - Proof Hash: `21408a19f485ea00` | Verification: `v1/eval/21408a19f485ea00c33e561609788b1aa34082d15de2aba41ae32f91cfa6e408.proof.json`
+- **Point (1.28, 102.45)** vs `S2_T40RCR_HORMUZ_CHOKEPOINT` [OUTSIDE - Dist: 5597523.002m]:
+  - Proof Hash: `5c86d653c3b58788` | Verification: `v1/eval/5c86d653c3b58788426af1d4cb5bdf9025e6bac3f5b1372d908c29a3be8b3935.proof.json`
+- **Point (1.15, 102.05)** vs `S2_T48NTK_MALACCA_ROTATED` [OUTSIDE - Dist: 12776.398m]:
+  - Proof Hash: `590bdaa38ee65ee8` | Verification: `v1/eval/590bdaa38ee65ee8d199422129a20fd816435f831f8a597a36b832639993ea1c.proof.json`
+- **Point (1.15, 102.05)** vs `S1_ORBIT99_SINGAPORE_RADAR` [OUTSIDE - Dist: 146399.066m]:
+  - Proof Hash: `02da57be993bb537` | Verification: `v1/eval/02da57be993bb5371f254e7d62377762bf6a2093b7cb95056ba57ae5916d5c20.proof.json`
+- **Point (1.15, 102.05)** vs `S2_T40RCR_HORMUZ_CHOKEPOINT` [OUTSIDE - Dist: 5568325.979m]:
+  - Proof Hash: `043c6cc743a25a02` | Verification: `v1/eval/043c6cc743a25a022df7855b33829e5c69523cbdf621300dd18e9f4fba525590.proof.json`
+- **Point (1.32, 104.15)** vs `S2_T48NTK_MALACCA_ROTATED` [OUTSIDE - Dist: 127892.764m]:
+  - Proof Hash: `74a5c32a229324b3` | Verification: `v1/eval/74a5c32a229324b34e21927c1c083762efe78dc3e2e3c35ae05589d12261c899.proof.json`
+- **Point (1.32, 104.15)** vs `S1_ORBIT99_SINGAPORE_RADAR` [CONTAINED - INTERIOR]:
+  - Proof Hash: `2931f52066b7e473` | Verification: `v1/eval/2931f52066b7e473e382419f8d5287cb7cfe55c89fcd12e535643042564adb54.proof.json`
+- **Point (1.32, 104.15)** vs `S2_T40RCR_HORMUZ_CHOKEPOINT` [OUTSIDE - Dist: 5753817.758m]:
+  - Proof Hash: `be5af303826d557c` | Verification: `v1/eval/be5af303826d557c2e9ba4f6daf03219d59e38746c523431ebda1550a0cca60a.proof.json`
+- **Point (26.45, 56.35)** vs `S2_T48NTK_MALACCA_ROTATED` [OUTSIDE - Dist: 5559000.918m]:
+  - Proof Hash: `e16c6c675df81efd` | Verification: `v1/eval/e16c6c675df81efd9c37893c51f6985c5aad559d793071814acb4f659a2b2b22.proof.json`
+- **Point (26.45, 56.35)** vs `S1_ORBIT99_SINGAPORE_RADAR` [OUTSIDE - Dist: 5587498.05m]:
+  - Proof Hash: `9a5083a347bcbed8` | Verification: `v1/eval/9a5083a347bcbed8c6a63b3cf4ddadb7c57dd0d0e87d3040cf6c5917d4b61bba.proof.json`
+- **Point (26.45, 56.35)** vs `S2_T40RCR_HORMUZ_CHOKEPOINT` [CONTAINED - INTERIOR]:
+  - Proof Hash: `be1b4c62621bb366` | Verification: `v1/eval/be1b4c62621bb366558a216b145f3d6e2b7abb644ffb9ab7bbec9e6c295b08d2.proof.json`

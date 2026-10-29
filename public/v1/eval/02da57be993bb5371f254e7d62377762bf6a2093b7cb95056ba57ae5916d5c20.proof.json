@@ -1,0 +1,20 @@
+{
+  "query_point": {
+    "lat": 1.15,
+    "lon": 102.05,
+    "h3_res8": "8865210d61fffff"
+  },
+  "target_geometry_id": "S1_ORBIT99_SINGAPORE_RADAR",
+  "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+  "is_contained": false,
+  "relative_position": "EXTERIOR",
+  "distance_to_boundary_meters": 146399.066,
+  "ray_casting_crossings": 0,
+  "winding_number": 0,
+  "envelope_bounds": [
+    102.97,
+    0.85,
+    105.82,
+    3.65
+  ]
+}

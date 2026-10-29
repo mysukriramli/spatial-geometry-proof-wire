@@ -1,0 +1,20 @@
+{
+  "query_point": {
+    "lat": 26.45,
+    "lon": 56.35,
+    "h3_res8": "8843ad942bfffff"
+  },
+  "target_geometry_id": "S2_T40RCR_HORMUZ_CHOKEPOINT",
+  "geometry_type": "POLYGON_ROTATED_OBLIQUE",
+  "is_contained": true,
+  "relative_position": "INTERIOR",
+  "distance_to_boundary_meters": 0.0,
+  "ray_casting_crossings": 1,
+  "winding_number": 1,
+  "envelope_bounds": [
+    55.66,
+    25.9,
+    56.84,
+    27.04
+  ]
+}

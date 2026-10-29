@@ -1,0 +1,31 @@
+{
+  "wire": "spatial-geometry-proof-wire",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-29T04:25:50.068773+00:00",
+  "source_cursor": "shapely-geos-wgs84-engine",
+  "freshness_slo_seconds": 86400,
+  "artifacts": [
+    "today.json",
+    "spatial-evaluations.parquet",
+    "scene-bounding-footprints.parquet",
+    "llms.txt",
+    "v1/schema.json",
+    "v1/deltas/today.json"
+  ],
+  "coverage": {
+    "algorithms": [
+      "Point-in-Polygon Ray Casting",
+      "Geodesic Ellipsoidal Distance (WGS84)",
+      "H3 Hexagonal Decomposition"
+    ],
+    "registered_geometries": [
+      "S2_T48NTK_MALACCA_ROTATED",
+      "S1_ORBIT99_SINGAPORE_RADAR",
+      "S2_T40RCR_HORMUZ_CHOKEPOINT"
+    ]
+  },
+  "limitations": [
+    "Calculations assume WGS-84 ellipsoidal model (EPSG:4326)",
+    "Extraterrestrial or celestial projections unsupported"
+  ]
+}
