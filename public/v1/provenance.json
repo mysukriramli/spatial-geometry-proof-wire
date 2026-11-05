@@ -2,5 +2,5 @@
   "generator": "spatial-geometry-proof-wire",
   "engine": "GEOS / Shapely / PyProj / H3",
   "ellipsoid": "WGS84",
-  "generated_at_utc": "2026-11-04T15:34:08.037838+00:00"
+  "generated_at_utc": "2026-11-05T15:38:31.763971+00:00"
 }
