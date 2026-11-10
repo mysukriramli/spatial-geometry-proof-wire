@@ -1,7 +1,7 @@
 {
   "wire": "spatial-geometry-proof-wire",
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-09T17:40:07.348875+00:00",
+  "generated_at": "2026-11-10T15:40:36.454661+00:00",
   "source_cursor": "shapely-geos-wgs84-engine",
   "freshness_slo_seconds": 86400,
   "artifacts": [
